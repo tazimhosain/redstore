@@ -1,0 +1,53 @@
+@media only screen and (max-width:991px){
+    h1{
+        font-size: 38px;
+        font-weight: 700;
+        padding-right: 0px;
+    }
+    #banner{
+        padding: 100px 20px;
+        text-align: center;
+    }
+    #banner img{
+        margin-top: 100px;
+    }
+    .banner_details{
+        padding-top: 50px;
+    }
+    .lead{
+        font-size: 18px;
+    }
+    .product_details .btn{
+        opacity: 1;
+        transform: translateY(0px);
+        margin-top: 30px;
+    }
+    .product_details:hover{
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width:767px){
+    .header_content{
+        text-align: center;
+    }
+    .header_content h1{
+        padding: 0 52px;
+    }
+}
+
+
+@media only screen and (max-width:433px){
+    .header_content h1{
+        padding: 0px;
+    }
+    .cart_input{
+        w:100%
+    }
+}
+
+@media only screen and (max-width:318px){
+    .btn{
+        padding: 5px 10px;
+    }
+}
