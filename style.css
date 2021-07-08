@@ -1,0 +1,353 @@
+/* ===========================================
+Reuseable Style 
+=========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+h2::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #FF623C;
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h5{
+    font-weight: 700;
+}
+
+.btn{
+    background: #FF623C;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+/* ===========================================
+Header Section Style 
+=========================================== */
+#header{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,223,219,1) 100%);
+}
+
+.navbar img{
+    width: 200px;
+}
+
+#navbarNav .active a{
+    color: #ff523b;
+}
+
+/* ===========================================
+Section Style 
+=========================================== */
+#product .star i{
+    color: #FF623C;
+}
+
+.product_details{
+    margin-top: 40px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.product_details:hover{
+    margin-top: 40px;
+    transform: translateY(-10px);
+}
+
+.product_details .btn{
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s;
+}
+
+.product_details:hover .btn{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+#product h3{
+    text-align: left;
+    font-weight: 700;
+}
+
+/* ===========================================
+Banner Section Style 
+=========================================== */
+#banner{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,223,219,1) 100%);
+    padding: 100px 150px;
+}
+
+
+/* ===========================================
+Testimonial Section Style 
+=========================================== */
+#testimonial{
+    text-align: center;
+    margin: 80px 0px;
+}
+
+#testimonial .card{
+    padding: 30px 40px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 0px #000;
+    transition: 0.5s;
+}
+
+#testimonial .card:hover{
+    transform: translateY(-10px);
+}
+
+#testimonial .card p{
+    margin: 20px 0px;
+}
+
+#testimonial .card img{
+    border-radius: 50%;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#testimonial .card h4{
+    font-weight: 700;
+}
+
+#testimonial .fa{
+    color: #FE613B;
+}
+
+#testimonial .fa-quote-left{
+    font-size: 40px;
+}
+
+
+/* ===========================================
+Brand Section Style 
+=========================================== */
+#brand{
+    text-align: center;
+    margin: 80px 0px;
+}
+
+#brand img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+#brand img:hover{
+    filter: grayscale(0);
+}
+
+
+/* ===========================================
+Brand Section Style 
+=========================================== */
+footer{
+    background: #000;
+    color: #fff;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer h5{
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+footer .logo{
+    margin-top: 50px;
+}
+
+footer img{
+    cursor: pointer;
+}
+
+footer p{
+    margin: 30px 0px;
+}
+
+footer ul{
+    margin-top: 30px;
+}
+
+footer ul li{
+    margin-top: 10px;
+}
+
+footer ul li a{
+    color: #777;
+}
+
+footer::after{
+    display: block;
+    content: '';
+    height: 3px;
+    background: rgb(221, 220, 220);
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+/* ===========================================
+Single Product Page Style 
+=========================================== */
+#singleProduct{
+    padding: 80px 0px;
+}
+
+#singleProduct img{
+    margin: 20px 0px;
+}
+
+.smallImg{
+    cursor: pointer;
+}
+
+#singleProduct input,
+#singleProduct select,
+#singleProduct h5,
+#singleProduct p{
+    margin-top: 30px;
+}
+
+
+
+/* ===========================================
+Product Page Style 
+=========================================== */
+.pagination li:hover a{
+    background: #FE613B;
+    color: #fff;
+}
+
+.pagination li a{
+    color: #000;
+}
+
+
+/* ===========================================
+Product Page Style 
+=========================================== */
+#cart table{
+    width: 100%;
+}
+
+#cart table th{
+    background: #FE613B;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+#cart table td{
+    padding: 20px 10px;
+}
+
+
+/* ===========================================
+Account Page Style 
+=========================================== */
+#account{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,223,219,1) 100%);
+    padding: 80px 0px;
+}
+
+#account .form_container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 #000;
+    overflow: hidden;
+}
+
+#account .form_container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+#account .form_btn{
+    display: inline-block;
+}
+
+#account .form_container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: 1s;
+}
+
+.form_container form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.form_container form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.form_container form .btn:focus{
+    outline: none;
+}
+
+.form_container form a{
+    font-size: 12px;
+}
+
+#loginForm{
+    left: -300px;
+}
+
+#regForm{
+    left: 0;
+}
+
+#indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(50px);
+    transition: 1s;
+}
